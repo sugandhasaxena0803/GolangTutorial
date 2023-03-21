@@ -1,6 +1,9 @@
 package GolangTests
 
-import "testing"
+import (
+	"fmt"
+	"testing"
+)
 
 /*
 
@@ -39,4 +42,10 @@ func TestAddNums(t *testing.T) {
 		}
 
 	}
+}
+
+func ExampleAddNums() {
+	fmt.Println(AddNums(6, 7, 8, 0))
+	//Output:
+	//20
 }
